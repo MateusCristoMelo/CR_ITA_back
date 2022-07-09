@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from core.serializer import DataSerializer
+from core.serializer import DataSerializer, ContactSerializer
 from .models import Data
 
 from dataset.ScriptsMongoDB import ScriptsMongoDB
@@ -73,5 +73,18 @@ class DataItemView(APIView):
           serializer = DataSerializer(data=get_cr(my_file))
           if serializer.is_valid():
                 return Response(serializer.data, status=status.HTTP_200_OK)
+          else:
+                return Response({"status": "error", "data": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
+
+class ContactItemView(APIView):
+      permission_classes = (permissions.AllowAny,)
+      authentication_classes = (CsrfExemptSessionAuthentication, BasicAuthentication)
+
+
+      def post(self, request):          
+          serializer = ContactSerializer(data=request.data)
+          if serializer.is_valid():
+                serializer.save()
+                return Response({"status": "error", "data": serializer.data}, status=status.HTTP_200_OK)
           else:
                 return Response({"status": "error", "data": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
