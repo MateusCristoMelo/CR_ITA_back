@@ -1,0 +1,27 @@
+.GradesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    font-size: xx-large;
+    color: white;
+}
+
+.GradesITAGrade{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #183d6c;
+}
+
+.GradesITAConcept{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #183d6c;
+    color: white
+}
+
+.GradesCR{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #183d6c;
+}

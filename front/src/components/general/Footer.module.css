@@ -1,0 +1,10 @@
+.FooterContainer{
+    background-color: #005e7b;
+    border-radius: 10px;
+}
+
+.FooterText{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

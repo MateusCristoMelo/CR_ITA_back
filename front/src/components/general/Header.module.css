@@ -1,0 +1,47 @@
+.HeaderContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #005e7b;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.HeaderHomepage{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #001d4f;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-size: 40px;
+    text-decoration : None;
+}
+
+.HeaderDashpage{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    background-color: #001d4f;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-size: 40px;
+    text-decoration : None;
+}
+
+.HeaderLoginpage{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    background-color: #001d4f;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-size: 35px;
+    text-decoration : None;
+}

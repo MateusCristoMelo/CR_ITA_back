@@ -1,0 +1,25 @@
+.AboutProjectContainer{
+    display: grid; 
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    
+
+}
+
+.AboutProjectTitle{
+    
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: xx-large;
+    
+}
+
+.AboutProjectText{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    
+
+}

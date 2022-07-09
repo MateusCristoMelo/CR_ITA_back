@@ -1,0 +1,21 @@
+.HowToUseContainer{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.HowToUseTitle{
+    
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: xx-large;
+    
+}
+
+.HowToUseText{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
