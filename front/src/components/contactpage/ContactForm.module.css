@@ -1,8 +1,0 @@
-.ContactContainer{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    color: white;
-}
