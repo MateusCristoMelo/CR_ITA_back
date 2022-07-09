@@ -1,0 +1,12 @@
+h1 {
+      font-size: 12px; /* ponto-e-vírgula é recomendável */
+      background-color: bisque;
+      text-align: center;
+    }
+    
+h2 {
+      color: #000;
+      background-color: bisque;
+      text-align: center;
+      font-weight: bold; /* ponto-e-vírgula é recomendável */
+}

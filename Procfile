@@ -1,0 +1,1 @@
+web: gunicorn cr_ita.wsgi
