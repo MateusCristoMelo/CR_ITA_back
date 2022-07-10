@@ -65,6 +65,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'https://vast-depths-38792.herokuapp.com/'
 ]
 
 ROOT_URLCONF = 'cr_ita.urls'
