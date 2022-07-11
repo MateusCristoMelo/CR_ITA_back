@@ -65,7 +65,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://crita.herokuapp.com'
+    'https://crita.herokuapp.com/'
 ]
 
 ROOT_URLCONF = 'cr_ita.urls'
